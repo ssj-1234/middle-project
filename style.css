@@ -1,0 +1,65 @@
+/* ===== Page 1 스타일 ===== */
+
+/* Page 1 배경 설정 */
+body.page1 {
+    margin: 0;
+    padding: 0;
+    background-color: #FFDEE6; /* Page 1 배경색 */
+    font-family: 'Impact', sans-serif;
+}
+
+/* A4 컨테이너 스타일 */
+body.page1 .a4-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 50px 0 0 100px;
+    width: 595px;
+    height: 842px;
+    background: #FFFFFF; /* 텍스트 영역 배경색 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 약간의 그림자 효과 */
+    margin: 20px auto;
+}
+
+/* ===== Page 2 스타일 ===== */
+
+/* Page 2 배경 설정 */
+body.page2 {
+    margin: 0;
+    padding: 0;
+    background-color: #DEFBFF; /* Page 2 배경색 */
+    font-family: 'Impact', sans-serif;
+}
+
+/* A4 컨테이너 스타일 */
+body.page2 .a4-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 50px 0 0 100px;
+    width: 595px;
+    height: 842px;
+    background: #FFFFFF; /* 텍스트 영역 배경색 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 약간의 그림자 효과 */
+    margin: 20px auto;
+}
+
+/* ===== 공통 텍스트 스타일 ===== */
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px; /* 기본 텍스트 크기 */
+    line-height: 55px; /* 줄 간격 증가 */
+    color: #000000; /* 기본 검정색 */
+}
+
+.blue-text {
+    color: #0055FF; /* 파란 텍스트 */
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.blue-text:hover {
+    transform: scale(1.5); /* 호버 시 크기 확대 */
+}
